@@ -1,4 +1,6 @@
 /ticket-booking/node_modules
 /Backend/.env
 /Backend/node_modules
+/.gitignore
+
 
