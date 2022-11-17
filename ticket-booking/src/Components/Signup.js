@@ -33,10 +33,9 @@ export default function Signup() {
             //redirect
             localStorage.setItem('token',json.authtoken);
             history.push('/');
-            window.location.reload();
             setTimeout(() => {
               alert("Registered successfully")
-            }, 5000); 
+            }, 2000); 
             // props.showAlert("Account created successfully","success");
         }else{
             //  console.log("Invalid credentials","danger");
@@ -55,7 +54,7 @@ export default function Signup() {
       setCredentials({...Credentials,[e.target.name]:e.target.value})
      }
   return (
-    <div className='flex items-center w-full h-[60rem]  bg-gray-200 justify-center'>
+    <div className='flex items-center w-full h-[80rem]  bg-gray-200 justify-center'>
     <div className='flex flex-col lg:flex-row bg-white w-2/3 h-2/3 rounded-md justify-around items-center' >
           <div className='flex-col justify-center items-cente space-y-10 '>
                      <div className='text-3xl font-bold'>User Sign Up</div>
@@ -103,9 +102,9 @@ export default function Signup() {
                 <button className='text-center' >Submit</button>
               </div>
           </div>
-          <div className='flex-col justify-center items-center space-y-4  '>
+          <div className='flex-col justify-center items-center '>
                <img src={signup} alt=""></img>
-               <Link to='/login' className='pl-10   text-center underline'>I am already a member</Link>
+               <Link to='/login' className=''>Already a member</Link>
           </div>
     </div>
     </div>

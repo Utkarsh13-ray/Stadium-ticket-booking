@@ -96,7 +96,7 @@ router.post('/login',[
           
            const userid=req.user.id;
           const user=await User.findById(userid);
-        //   console.log(user);
+          console.log(user);
           res.send(user);
       } catch (error) {
           res.status(401).send("please authenticate using a valid token");

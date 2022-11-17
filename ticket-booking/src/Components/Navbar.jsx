@@ -17,7 +17,7 @@ const handleLogout=()=>{
   window.location.reload();
   setTimeout(() => {
     alert("Logged out")
-  }, 5000); 
+  }, 3000); 
 
 }
   React.useEffect(() => {
@@ -53,7 +53,7 @@ const handleLogout=()=>{
           
           <div>
             
-        <div className="peer px-5 py-2  text-gray-400 flex ml-8 md:ml-0"> <div className='hover:text-yellow-400 px-2'>{!localStorage.getItem('token')?"Login/Register":`Hii!  ${props.name}`}</div></div>
+        <div className="peer px-5 py-2  text-gray-400 flex ml-8 md:ml-0"> <div className='hover:text-yellow-400 px-2'>{!localStorage.getItem('token')?"Login/Register":`Hii! Welcome ${props.name}`}</div></div>
         
    
          <div className="hidden peer-hover:flex hover:flex

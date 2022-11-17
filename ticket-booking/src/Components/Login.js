@@ -26,10 +26,9 @@ export default function Login(props) {
             //redirect
             localStorage.setItem('token',json.authtoken);
             history.push('/');
-            window.location.reload();
             setTimeout(() => {
               alert("Logged in successfully")
-            }, 5000); 
+            }, 2000); 
             // props.showAlert("Logged in successfully","green");
 
         }else{
