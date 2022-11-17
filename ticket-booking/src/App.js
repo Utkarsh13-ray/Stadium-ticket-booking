@@ -99,7 +99,7 @@ function App()  {
             <Payment name={names} email={email}/>
           </Route>
           <Route exact path="/paysuccess"  >
-            <Paysuccess name={names}/>
+            <Paysuccess name={names} email={email}/>
           </Route>
           <Route exact path="/booked" >
                  <Booked name={names}/>
