@@ -8,7 +8,7 @@ export default function Events() {
   let color="text-white hover:text-yellow-400 text-center p-4   bg-red-600 w-1/2 mb-4";
 
   
-  {!localStorage.getItem('token')?color="text-white hover:text-yellow-400 text-center p-4   bg-red-600 w-1/2 mb-4":color="text-white hover:text-yellow-400 text-center p-4   bg-green-600 w-1/2 mb-4"}
+  !localStorage.getItem('token')?color="text-white hover:text-yellow-400 text-center p-4   bg-red-600 w-1/2 mb-4":color="text-white hover:text-yellow-400 text-center p-4   bg-green-600 w-1/2 mb-4";
 
   return (
     <>  <div id='event' className='text-center mt-20'>
@@ -19,7 +19,7 @@ export default function Events() {
            <div className='flex flex-col bg-slate-300 w-4/5 lg:w-1/3 justify-center items-center mt-14 '>
             <div >
             <img 
-             src={basketball} alt=""
+             src={basketball} alt="loading failed"
               />
             </div>
             <div>

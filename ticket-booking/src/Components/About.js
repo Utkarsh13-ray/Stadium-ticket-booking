@@ -20,7 +20,7 @@ export default function About() {
     <div className='flex flex-col bg-white items-center md:flex-row'>
       <div className="flex justify-center items-center m-4 md:m-8 2xl:m-20 md:w-[50%]">
         <img
-        src={i} 
+        src={i} alt=" loading failed"
      />
       </div>
       <div className='flex flex-col mt-10 md:w-[50%] justify-center m-8'>

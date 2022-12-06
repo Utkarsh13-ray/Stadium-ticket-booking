@@ -1,6 +1,5 @@
-import React,{useState,useEffect} from 'react'
+import React,{useState} from 'react'
 import './Payment.css'
-import Paysuccess from './Paysuccess';
 import fest from './sports-festival.png'
 import {Link}from "react-router-dom";
 export default function Payment(props) {
@@ -16,7 +15,7 @@ export default function Payment(props) {
     <div className='flex flex-col  justify-center w-[40rem] my-5  '>
         <div className='text-center'>Welcome</div>
         <div className='text-center font-bold'>IIIT RANCHI SPORTS FESTIVAL</div>
-        <div className='flex justify-center'><img src={fest} className='w-[40rem]'></img></div>
+        <div className='flex justify-center'><img src={fest} alt="loading failed" className='w-[40rem]'></img></div>
         <div className='flex flex-col items-center my-4'>
             <div className='flex flex-col mt-4'>
                <div className='w-[40rem] '><span className='font-bold text-xl my-4'>Name</span>(This name will be printed on ticket...)</div>
