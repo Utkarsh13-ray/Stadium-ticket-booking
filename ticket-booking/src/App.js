@@ -49,7 +49,7 @@ function App()  {
     }
 
     const getUser=async ()=>{
-      const response = await fetch(`http://localhost:5000/api/auth/getuser`, {
+      const response = await fetch(`https://stadium-ticket-booking-production.up.railway.app/api/auth/getuser`, {
         method: 'GET', 
     
         headers: {

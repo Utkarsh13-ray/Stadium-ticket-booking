@@ -19,7 +19,7 @@ export default function Signup() {
       e.preventDefault();
       const {name,email,password,cpassword}=Credentials;
       if(cpassword===password){
-      const response = await fetch("http://localhost:5000/api/auth/createuser", {
+      const response = await fetch("https://stadium-ticket-booking-production.up.railway.app/api/auth/createuser", {
           method: 'POST', 
       
           headers: {

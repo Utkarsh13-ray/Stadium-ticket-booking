@@ -12,7 +12,7 @@ export default function Login(props) {
   const [Credentials, setCredentials] = useState({email:"",password:""});
   const handleSubmit=async (e)=>{
       e.preventDefault();
-      const response = await fetch("http://localhost:5000/api/auth/login", {
+      const response = await fetch("https://stadium-ticket-booking-production.up.railway.app/api/auth/login", {
           method: 'POST', 
       
           headers: {
