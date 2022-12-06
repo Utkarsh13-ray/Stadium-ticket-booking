@@ -33,6 +33,7 @@ export default function Signup() {
             //redirect
             localStorage.setItem('token',json.authtoken);
             history.push('/');
+            window.location.reload();
             setTimeout(() => {
               alert("Registered successfully")
             }, 2000); 
@@ -70,7 +71,7 @@ export default function Signup() {
               <div className='flex border-b-black border-b-2 py-2 my-2'>
                 <div className='flex  h-4 w-56 items-center   align-middle'>
                 <MdEmail/>
-                 <div className='pl-2 text-l=md'><input className='focus:outline-none active:text-black'  size="12" type={'email'} placeholder='Email' onChange={onChange } minLength={5} required name="email" id="email"></input></div>
+                 <div className='pl-2 text-l=md'><input className='focus:outline-none active:text-black'  size="20" type={'email'} placeholder='Email' onChange={onChange } minLength={5} required name="email" id="email"></input></div>
               </div>
               </div>
               <div className='flex border-b-black border-b-2 py-2 my-2'>
