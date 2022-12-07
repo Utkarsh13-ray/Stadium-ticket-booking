@@ -19,12 +19,12 @@ export default function Payment(props) {
         <div className='flex flex-col items-center my-4'>
             <div className='flex flex-col mt-4'>
                <div className='w-[40rem] '><span className='font-bold text-xl my-4'>Name</span>(This name will be printed on ticket...)</div>
-                   <div className="border-[2px] border-black w-[40rem] bg-white h-9 items-center text-xl"> <input  type="text"  className='focus:outline-none' size="56"  onChange={onChange} name="name" id="name" minLength={5} value={Credentials.name} required/></div>
+                   <div className="border-[2px] border-black w-[40rem] bg-white h-9 items-center text-xl"> <input  type="text"  className='focus:outline-none' size="20"  onChange={onChange} name="name" id="name" minLength={5} value={Credentials.name} required/></div>
             </div>
        
             <div className='flex flex-col mt-4'>
                <div className='w-[40rem] '><span className='font-bold text-xl my-4'>Email</span></div>
-                   <div className="border-[2px] border-black w-[40rem] bg-white h-9 items-center text-xl"> <input  type="email"  className='focus:outline-none' size="56"  onChange={onChange} name="email" id="email" minLength={5} value={Credentials.email} required/></div>
+                   <div className="border-[2px] border-black w-[40rem] bg-white h-9 items-center text-xl"> <input  type="email"  className='focus:outline-none' size="20"  onChange={onChange} name="email" id="email" minLength={5} value={Credentials.email} required/></div>
             </div>
        
             <div className='flex flex-col mt-4'>

@@ -24,7 +24,7 @@ export default function Events() {
             </div>
             <div>
                  <div className='text-yellow-400 text-xl text-center font-bold bg-[#030f27] p-5'> IIIT Allahabad vs IIIT Ranchi Basketball</div>
-                 <div className='pt-5'>
+                 <div className='pt-5 px-5'>
                  Indian Institute of Information Technology Allahabad is a public technical and research university located in Allahabad/Pryagraj , Uttar Pradesh, India. It was declared to be an Institute of National Importance by the Government of India under the Institutes of Technology Act.
                  </div>
             </div>
