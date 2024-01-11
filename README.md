@@ -1,3 +1,4 @@
+Stadium Ticket Booking System - MERN Stack, Tailwind CSS 3.0
 Overview:
 The Stadium Ticket Booking System is a web application developed to facilitate the booking of tickets for sports tournaments. It is built using the MERN stack (MongoDB, Express.js, React.js, Node.js) and incorporates Tailwind CSS 3.0 for a sleek and responsive frontend design.
 
